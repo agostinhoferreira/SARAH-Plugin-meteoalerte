@@ -1,0 +1,16 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="rulemeteo_alerte" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="rulemeteo_alerte" scope="public">
+    <example>Sarah alerte meteo</example>
+    <tag>out.action=new Object(); </tag>
+	
+    <item>Sarah</item>
+    <one-of>
+	<!-- demmande les alerte -->
+      <item>Dis moi alerte meteo france</item>
+      <item>Alerte meteo france</item>
+	  <item>Alerte meteo</item>
+	</one-of> 	
+    	
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/meteoalerte";</tag>
+  </rule>
+</grammar>

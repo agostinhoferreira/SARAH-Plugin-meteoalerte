@@ -1,0 +1,9 @@
+{
+  "modules" : { 
+    "meteoalerte"  : {
+      "description": "Alerte Meteo france",
+      "version"    : "1.1",
+	  "numero_departement": "77"
+    }
+  }
+}
