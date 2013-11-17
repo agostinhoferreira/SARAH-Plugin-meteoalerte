@@ -6,7 +6,7 @@
     <item>Sarah</item>
     <one-of>
 	<!-- demmande les alerte -->
-      <item>Dis moi alerte meteo france</item>
+      <item>Dis moi les alerte meteo france</item>
       <item>Alerte meteo france</item>
 	  <item>Alerte meteo</item>
 	</one-of> 	
